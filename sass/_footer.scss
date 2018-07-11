@@ -1,0 +1,18 @@
+footer {
+    background: yellow;
+        font: 2px/3px {
+            family: arial;
+            size: 10px;
+            weight: bold;
+        }
+        a{
+            font-size: 24px;
+            &:hover {color:#ccc;}
+        }
+        h4{
+            color: $titulos;
+        }
+        p{
+            font-size: $sizeTexto;
+        }
+}

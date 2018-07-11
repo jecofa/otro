@@ -1,0 +1,16 @@
+footer {
+  background: yellow;
+  font: 2px/3px;
+    font-family: arial;
+    font-size: 10px;
+    font-weight: bold; }
+  footer a {
+    font-size: 24px; }
+    footer a:hover {
+      color: #ccc; }
+  footer h4 {
+    color: red; }
+  footer p {
+    font-size: 14px; }
+
+/*# sourceMappingURL=style.css.map */

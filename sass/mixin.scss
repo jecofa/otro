@@ -1,0 +1,18 @@
+@mixin cuadrado ($fondo, $ancho:200px){
+    background: $fondo;
+    width: $ancho;
+    height: 200px;
+    padding: 20px
+}
+.cuadrado1{
+    color: black;
+    @include cuadrado(#111, 300px);
+}
+.cuadrado2{
+    color: yellow;
+    @include cuadrado(#222);
+}
+.cuadrado3{
+    color: blue;
+    @include cuadrado(#333, 100px);
+}
